@@ -1,0 +1,106 @@
+body  {
+
+    background: rgb(0, 26, 255);
+    color: white;
+    margin: 0px;
+    padding-bottom:  50px;
+    margin-bottom: 30px;
+}
+
+header  {
+
+    font-size: 76px;
+    color: rgb(11, 226, 208);
+    border-bottom: solid 3px rgb(45, 12, 236);
+    padding: 20px;
+
+    font-family: "Titan One", sans-serif;      
+}
+
+.chama-video-intro  {
+    background: rgb(14, 188, 201);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+
+    font-style: normal;
+
+    
+}
+
+.chama-texto  {
+margin-right: 3%;
+
+}
+
+h2  {
+font-size: 53px;
+color: blue;
+}
+
+p  {
+font-size: 46px;
+color: rgb(43, 101, 226);
+
+}
+
+img  {
+height: 200px;
+
+}
+
+.indicacao-filmes  {
+display: flex;
+overflow-x: auto;
+gap: 15px;
+
+}
+
+.sugestoes  {
+padding-top: 20px;
+
+border-left:solid rgb(10, 51, 233) 20px;
+border-right:solid rgb(38, 5, 226) 20px;
+
+}
+
+
+.indicacao-filmes img  {
+opacity: 0.5;
+
+}
+
+.indicacao-filmes img:hover  {
+opacity: 1;
+border: solid yellow 4px;
+}
+
+.sugestoes h3  {
+    font-family: "Titan One", sans-serif;
+
+    font-size: 55px;
+    margin: 0px;
+   }
+
+
+footer {background: radial-gradient(#f00, transparent);
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    margin-top: 7px;
+}   
+
+footer p {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    margin-top: 4px;
+
+}
+
+
+
+
+
